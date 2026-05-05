@@ -41,3 +41,7 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Embedded repos — tracked as files, not submodules
+experiment6/stylegan2-ada-pytorch/
+experiment6/face-parsing/.git
