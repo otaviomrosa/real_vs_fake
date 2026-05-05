@@ -1,0 +1,43 @@
+# Ignore experiments 1-5
+experiment1/
+experiment2/
+experiment3/
+experiment4/
+experiment5/
+
+# Results, logs, generated SLURM scripts
+results/
+logs/
+slurm_scripts/
+job_list.txt
+submitted_jobs.txt
+
+# Model weights and PCA caches
+*.pth
+*.pt
+
+# Images and binary outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tar
+*.csv
+*.json
+
+# Office / presentation files
+*.pptx
+*.docx
+*.pdf
+
+# SLURM output files
+*.out
+*.err
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
